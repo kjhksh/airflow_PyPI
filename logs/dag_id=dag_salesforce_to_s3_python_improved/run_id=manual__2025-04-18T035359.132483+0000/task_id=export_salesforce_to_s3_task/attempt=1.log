@@ -1,0 +1,31 @@
+[2025-04-18T12:54:00.975+0900] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-18T12:54:00.992+0900] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_salesforce_to_s3_python_improved.export_salesforce_to_s3_task manual__2025-04-18T03:53:59.132483+00:00 [queued]>
+[2025-04-18T12:54:01.000+0900] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_salesforce_to_s3_python_improved.export_salesforce_to_s3_task manual__2025-04-18T03:53:59.132483+00:00 [queued]>
+[2025-04-18T12:54:01.001+0900] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-04-18T12:54:01.037+0900] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): export_salesforce_to_s3_task> on 2025-04-18 03:53:59.132483+00:00
+[2025-04-18T12:54:01.042+0900] {standard_task_runner.py:72} INFO - Started process 675569 to run task
+[2025-04-18T12:54:01.046+0900] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dag_salesforce_to_s3_python_improved', 'export_salesforce_to_s3_task', 'manual__2025-04-18T03:53:59.132483+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/dag_salesforce_to_s3_python_improved.py', '--cfg-path', '/tmp/tmpcoq2ypzo']
+[2025-04-18T12:54:01.049+0900] {standard_task_runner.py:105} INFO - Job 7: Subtask export_salesforce_to_s3_task
+[2025-04-18T12:54:01.133+0900] {task_command.py:467} INFO - Running <TaskInstance: dag_salesforce_to_s3_python_improved.export_salesforce_to_s3_task manual__2025-04-18T03:53:59.132483+00:00 [running]> on host DESKTOP-C0R54F3.
+[2025-04-18T12:54:01.360+0900] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='jonghyun kim' AIRFLOW_CTX_DAG_ID='dag_salesforce_to_s3_python_improved' AIRFLOW_CTX_TASK_ID='export_salesforce_to_s3_task' AIRFLOW_CTX_EXECUTION_DATE='2025-04-18T03:53:59.132483+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-18T03:53:59.132483+00:00'
+[2025-04-18T12:54:01.362+0900] {taskinstance.py:732} INFO - ::endgroup::
+[2025-04-18T12:54:01.364+0900] {dag_salesforce_to_s3_python_improved.py:61} INFO - Salesforce 및 S3 Hook 생성 완료.
+[2025-04-18T12:54:01.377+0900] {base.py:84} INFO - Retrieving connection 'locknlock_s3'
+[2025-04-18T12:54:01.386+0900] {base.py:84} INFO - Retrieving connection 'locknlock_s3'
+[2025-04-18T12:54:01.387+0900] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='locknlock_s3', conn_type='aws') credentials retrieved from login and password.
+[2025-04-18T12:54:01.398+0900] {dag_salesforce_to_s3_python_improved.py:74} INFO - S3 Storage Options 설정 완료 (Endpoint: http://192.168.10.29:9000)
+[2025-04-18T12:54:01.398+0900] {dag_salesforce_to_s3_python_improved.py:97} INFO - Salesforce 첫 페이지 조회 시도 (Query: SELECT Id, Name FROM Account)
+[2025-04-18T12:54:01.409+0900] {base.py:84} INFO - Retrieving connection 'Salseforce_Conn'
+[2025-04-18T12:54:02.298+0900] {salesforce.py:178} INFO - Querying for all objects
+[2025-04-18T12:54:03.662+0900] {salesforce.py:182} INFO - Received results: Total size: 4413; Done: True
+[2025-04-18T12:54:03.671+0900] {dag_salesforce_to_s3_python_improved.py:115} INFO - 청크 0: 4413개 레코드 처리 (총 4413개)
+[2025-04-18T12:54:03.671+0900] {dag_salesforce_to_s3_python_improved.py:124} INFO - 청크 0 데이터를 S3에 저장 시작: s3://sfquickstarts/salesforce_data/account_data_2025-04-18_part_0000.json.gz
+[2025-04-18T12:54:04.400+0900] {dag_salesforce_to_s3_python_improved.py:134} INFO - 청크 0 데이터 S3 저장 완료: s3://sfquickstarts/salesforce_data/account_data_2025-04-18_part_0000.json.gz
+[2025-04-18T12:54:04.400+0900] {dag_salesforce_to_s3_python_improved.py:144} INFO - Salesforce 데이터 처리 완료 (마지막 페이지).
+[2025-04-18T12:54:04.400+0900] {dag_salesforce_to_s3_python_improved.py:163} INFO - 총 4413개의 레코드를 1개의 청크 파일로 S3에 저장 완료.
+[2025-04-18T12:54:04.402+0900] {python.py:240} INFO - Done. Returned value was: 4413
+[2025-04-18T12:54:04.445+0900] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-04-18T12:54:04.445+0900] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_salesforce_to_s3_python_improved, task_id=export_salesforce_to_s3_task, run_id=manual__2025-04-18T03:53:59.132483+00:00, execution_date=20250418T035359, start_date=20250418T035400, end_date=20250418T035404
+[2025-04-18T12:54:04.525+0900] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-18T12:54:04.543+0900] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-18T12:54:04.572+0900] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,204 @@
+[2025-04-18T12:53:00.898+0900] {processor.py:186} INFO - Started process (PID=675129) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:00.899+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:53:00.902+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:00.902+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:01.620+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:01.796+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:01.796+0900] {override.py:1912} INFO - Created Permission View: can delete on DAG:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:01.832+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:01.831+0900] {override.py:1912} INFO - Created Permission View: can read on DAG:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:01.868+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:01.867+0900] {override.py:1912} INFO - Created Permission View: can edit on DAG:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:01.959+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:01.959+0900] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:01.997+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:01.997+0900] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:02.022+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:02.021+0900] {override.py:1912} INFO - Created Permission View: can read on DAG Run:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:02.102+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:02.101+0900] {override.py:1912} INFO - Created Permission View: can create on DAG Run:dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:02.102+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:02.102+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:53:02.117+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:02.116+0900] {dag.py:3262} INFO - Creating ORM DAG for dag_salesforce_to_s3_python_improved
+[2025-04-18T12:53:02.117+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:02.117+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:53:02.215+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 1.324 seconds
+[2025-04-18T12:53:32.532+0900] {processor.py:186} INFO - Started process (PID=675346) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:32.533+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:53:32.534+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:32.534+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:33.081+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:53:33.104+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:33.104+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:53:33.114+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:53:33.114+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:53:33.154+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.628 seconds
+[2025-04-18T12:54:03.487+0900] {processor.py:186} INFO - Started process (PID=675583) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:03.499+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:54:03.501+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:03.501+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:04.047+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:04.074+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:04.073+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:54:04.089+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:04.088+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:54:04.145+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.665 seconds
+[2025-04-18T12:54:34.478+0900] {processor.py:186} INFO - Started process (PID=675856) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:34.480+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:54:34.483+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:34.483+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:39.925+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:54:40.037+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:40.037+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:54:40.085+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:54:40.085+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:54:40.162+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 5.698 seconds
+[2025-04-18T12:55:10.492+0900] {processor.py:186} INFO - Started process (PID=676137) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:10.494+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:55:10.497+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:10.496+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:11.044+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:11.073+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:11.072+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:55:11.092+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:11.091+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:55:11.132+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.647 seconds
+[2025-04-18T12:55:41.452+0900] {processor.py:186} INFO - Started process (PID=676398) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:41.453+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:55:41.456+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:41.455+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:42.170+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:55:42.200+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:42.199+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:55:42.215+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:55:42.214+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:55:42.240+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.796 seconds
+[2025-04-18T12:56:12.572+0900] {processor.py:186} INFO - Started process (PID=676640) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:12.575+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:56:12.578+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:12.577+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:13.180+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:13.208+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:13.208+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:56:13.222+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:13.222+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:56:13.248+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.684 seconds
+[2025-04-18T12:56:43.562+0900] {processor.py:186} INFO - Started process (PID=676856) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:43.564+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:56:43.567+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:43.567+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:44.140+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:56:44.166+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:44.166+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:56:44.180+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:56:44.180+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:56:44.207+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.654 seconds
+[2025-04-18T12:57:14.547+0900] {processor.py:186} INFO - Started process (PID=677073) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:14.548+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:57:14.551+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:14.550+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:15.211+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:15.240+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:15.240+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:57:15.254+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:15.253+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:57:15.281+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.744 seconds
+[2025-04-18T12:57:45.611+0900] {processor.py:186} INFO - Started process (PID=677286) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:45.612+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:57:45.615+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:45.614+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:46.223+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:57:46.252+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:46.252+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:57:46.267+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:57:46.266+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:57:46.291+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.687 seconds
+[2025-04-18T12:58:16.655+0900] {processor.py:186} INFO - Started process (PID=677502) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:16.656+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:58:16.658+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:16.657+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:17.158+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:17.184+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:17.184+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:58:17.196+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:17.195+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:58:17.218+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.569 seconds
+[2025-04-18T12:58:47.556+0900] {processor.py:186} INFO - Started process (PID=677712) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:47.557+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:58:47.560+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:47.560+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:48.120+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:58:48.149+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:48.148+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:58:48.162+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:58:48.162+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:58:48.190+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.642 seconds
+[2025-04-18T12:59:18.518+0900] {processor.py:186} INFO - Started process (PID=677922) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:18.522+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:59:18.525+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:18.525+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:19.181+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:19.216+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:19.215+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:59:19.235+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:19.235+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:59:19.268+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.760 seconds
+[2025-04-18T12:59:49.622+0900] {processor.py:186} INFO - Started process (PID=678139) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:49.624+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T12:59:49.626+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:49.626+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:50.236+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T12:59:50.263+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:50.262+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T12:59:50.276+0900] {logging_mixin.py:190} INFO - [2025-04-18T12:59:50.276+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T12:59:50.299+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.687 seconds
+[2025-04-18T13:00:20.636+0900] {processor.py:186} INFO - Started process (PID=678349) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:20.639+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:00:20.641+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:20.641+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:21.108+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:21.135+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:21.135+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:00:21.149+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:21.149+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:00:21.174+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.544 seconds
+[2025-04-18T13:00:51.522+0900] {processor.py:186} INFO - Started process (PID=678565) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:51.523+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:00:51.526+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:51.525+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:52.052+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:00:52.077+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:52.077+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:00:52.088+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:00:52.088+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:00:52.109+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.596 seconds
+[2025-04-18T13:01:22.409+0900] {processor.py:186} INFO - Started process (PID=678784) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:22.410+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:01:22.413+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:22.413+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:23.076+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:23.112+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:23.112+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:01:23.130+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:23.129+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:01:23.154+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.718 seconds
+[2025-04-18T13:01:53.498+0900] {processor.py:186} INFO - Started process (PID=680011) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:53.500+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:01:53.504+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:53.503+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:54.253+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:01:54.293+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:54.292+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:01:54.313+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:01:54.312+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:01:54.348+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.859 seconds
+[2025-04-18T13:02:24.767+0900] {processor.py:186} INFO - Started process (PID=683736) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:24.768+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:02:24.771+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:24.770+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:25.451+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:25.488+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:25.487+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:02:25.510+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:25.509+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:02:25.547+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.790 seconds
+[2025-04-18T13:02:55.940+0900] {processor.py:186} INFO - Started process (PID=687955) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:55.942+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:02:55.945+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:55.945+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:56.731+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:02:56.773+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:56.772+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:02:56.791+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:02:56.791+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:02:56.824+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.894 seconds
+[2025-04-18T13:03:27.247+0900] {processor.py:186} INFO - Started process (PID=692376) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:27.248+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:03:27.252+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:27.251+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:27.914+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:27.949+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:27.948+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:03:27.969+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:27.969+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:03:28.005+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.769 seconds
+[2025-04-18T13:03:58.409+0900] {processor.py:186} INFO - Started process (PID=696607) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:58.412+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:03:58.421+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:58.421+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:59.254+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:03:59.293+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:59.293+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:03:59.318+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:03:59.317+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:03:59.355+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.969 seconds
+[2025-04-18T13:04:29.743+0900] {processor.py:186} INFO - Started process (PID=700374) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:04:29.745+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:04:29.747+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:04:29.747+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:04:30.391+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:04:30.435+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:04:30.434+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:04:30.453+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:04:30.453+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:04:30.484+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.749 seconds
+[2025-04-18T13:05:00.882+0900] {processor.py:186} INFO - Started process (PID=703554) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:00.884+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:05:00.886+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:00.886+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:01.570+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:01.602+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:01.602+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:05:01.620+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:01.620+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:05:01.651+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.778 seconds
+[2025-04-18T13:05:32.031+0900] {processor.py:186} INFO - Started process (PID=710817) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:32.032+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:05:32.034+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:32.034+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:32.738+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:05:32.773+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:32.772+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:05:32.788+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:05:32.787+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:05:32.818+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.795 seconds
+[2025-04-18T13:06:03.202+0900] {processor.py:186} INFO - Started process (PID=715779) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:03.204+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:06:03.207+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:03.206+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:03.945+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:03.981+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:03.980+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:06:03.999+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:03.999+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:06:04.030+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.836 seconds
+[2025-04-18T13:06:34.426+0900] {processor.py:186} INFO - Started process (PID=719254) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:34.427+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:06:34.430+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:34.429+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:35.272+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:06:35.316+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:35.315+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:06:35.338+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:06:35.338+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:06:35.380+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 0.961 seconds
+[2025-04-18T13:07:05.796+0900] {processor.py:186} INFO - Started process (PID=721986) to work on /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:07:05.798+0900] {processor.py:914} INFO - Processing file /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py for tasks to queue
+[2025-04-18T13:07:05.803+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:07:05.802+0900] {dagbag.py:588} INFO - Filling up the DagBag from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:07:06.798+0900] {processor.py:925} INFO - DAG(s) 'dag_salesforce_to_s3_python_improved' retrieved from /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py
+[2025-04-18T13:07:06.849+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:07:06.848+0900] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-18T13:07:06.875+0900] {logging_mixin.py:190} INFO - [2025-04-18T13:07:06.875+0900] {dag.py:4180} INFO - Setting next_dagrun for dag_salesforce_to_s3_python_improved to None, run_after=None
+[2025-04-18T13:07:06.919+0900] {processor.py:208} INFO - Processing /home/kim/airflow_tutorial/dags/dag_salesforce_to_s3_python_improved.py took 1.136 seconds
